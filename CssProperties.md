@@ -24,6 +24,4 @@ Most of these commands have intellisense shortcuts 'd+g' = display: grid
     justify-content: center; // start or end
     align-items: center; // start or end
 }
-
-
 ```
