@@ -12,16 +12,26 @@ Most of these commands have intellisense shortcuts 'd+g' = display: grid
 ## Properties
 
 ```css
-. {
+.important {
     display: grid;
-    height: full;
     height: screen;
+    height: full;
     width: full;
     overflow: hidden;
     overflow-y: scroll;
-    padding: 1rem;
-    text-align: center;
+    padding: 1rem; // use 1,2,3... rems
+    text-align: center; // start or end
     justify-content: center; // start or end
     align-items: center; // start or end
+    position: relative; // Parent of absolute property
+    position: absolute; // Child of relative property
 }
+
+.style {
+    color: red;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 ```
